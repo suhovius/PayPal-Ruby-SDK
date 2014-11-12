@@ -334,6 +334,7 @@ module PayPal::SDK
           object_of :amount, Amount
           object_of :state, String
           object_of :parent_payment, String
+          object_of :reason_code, String
           object_of :payment_mode, String
           object_of :protection_eligibility, String
           object_of :protection_eligibility_type, String
